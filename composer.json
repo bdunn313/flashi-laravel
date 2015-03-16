@@ -1,6 +1,12 @@
 {
     "name": "bdunn313/flashi-laravel",
     "description": "A small notification / flash message package for Laravel 5",
+    "keywords": [
+      "laravel",
+      "notifications",
+      "flash",
+      "small"
+    ],
     "require": {
         "illuminate/support": "~5.0",
         "illuminate/session": "~5.0"
