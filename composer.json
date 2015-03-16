@@ -1,0 +1,17 @@
+{
+    "name": "bdunn313/flashi-laravel",
+    "description": "A small notification / flash message package for Laravel 5",
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brad Dunn",
+            "email": "brad@braddunn.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.0"
+    }
+}
