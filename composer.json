@@ -1,6 +1,10 @@
 {
     "name": "bdunn313/flashi-laravel",
     "description": "A small notification / flash message package for Laravel 5",
+    "require": {
+        "illuminate/support": "~5.0",
+        "illuminate/session": "~5.0"
+    },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
     },
@@ -11,7 +15,9 @@
             "email": "brad@braddunn.com"
         }
     ],
-    "require": {
-        "illuminate/support": "~5.0"
+    "autoload": {
+        "psr-4": {
+            "Bdunn313\\": "src/"
+        }
     }
 }
